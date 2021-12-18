@@ -16,12 +16,14 @@ h1{
 }
 .container{
     margin: auto;
-    width:50%;
+    width:30%;
 }
 
 input,
 label {
     display:block;
+    
+    
 }
 
 input {
@@ -33,10 +35,22 @@ input {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    height:9vh;
 
 }
 
 .navigation .link {
     color: white;
     padding-right: 1rem;
+}
+.link {
+    text-decoration: none;
+    text-align: right;
+    float:right;
+    
+}
+.navigation .nav-name{
+    font-weight: bolder;
+    font-size: large;
+    
 }
