@@ -21,15 +21,17 @@ h1{
 
 input,
 label {
-    display:block;
+    display:table-cell;
+    vertical-align: middle;
+    padding: 1rem;
     
     
 }
 
-input {
+/* input {
     margin-bottom: 1rem;
     width: 100%;
-}
+} */
 .navigation{
     background-color: var(--primary-color);
     color: white;
